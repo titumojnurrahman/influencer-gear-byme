@@ -1,0 +1,264 @@
+/*-- @ Fonts Links @ --*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/*-- @ Navigation  Styles Start @--*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    margin-left: 120px;
+    margin-top: 87px;
+    font-size: 24px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    margin-right: 120px;
+    margin-top: 95px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 34px;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+span .fa-solid{
+    margin-right: 34px;
+    font-size: 25px;
+}
+/*-- @ Navigation  Styles Done @--*/
+
+
+/*-- @ Influencer Slogans & Quotes Start with styles @ --*/
+.containers{
+    margin: auto;
+}
+.first-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    margin-left: 120px;
+    margin-top: 160px;
+}
+.title-info{
+    font-size: 52px;
+    font-weight: 700;
+}
+.head-details{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+button{
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+    background: #E02C6D;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+}
+#icons{
+    margin-left: 8px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.main-camera{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-right: 132px;
+    margin-top: 132px;  
+}
+/*-- @ Influencer Slogans & Quotes styles Done @ --*/
+
+
+/*-- @ Ecommerce icon Start @ -- */
+.ecommerce{
+    width: 1110px;
+    height: 110px;
+    margin-top: 100px;
+    margin-left: 375px;
+}
+.ecommerce-icon{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between
+}
+.ecommerce-logo img{
+    cursor: pointer;
+    margin-top: 45px;
+    padding-left: 50px;
+    align-items: center;
+    padding: 20px 0px;
+}
+hr{
+    border: 1px solid #e4e4e48f;
+}
+/*-- @ Ecommerce icon End @ -- */
+
+
+/*-- @ Popular Product Collection Style Start @ --*/
+.popular-product-area{
+    width: 1160px;
+    height: 2052px;
+    margin-left: 350px;
+}
+.popular-pr-area-title{
+    font-size: 28px;
+    margin-top: 150px;
+    text-align: center;
+}
+.po-collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.base-collection{
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 5px 10px 80px #dddddd98;
+    background-color: #ffffff;
+}
+.po-collection{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.po-collection img{
+    cursor: pointer;
+    border-radius: 5px;
+    width: 350px;
+    height: 300px;
+}
+.product-collection-title{
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.product-price{
+    font-size: 28px;
+    font-weight: 300;
+}
+.icon-stars{
+    color: #ffb700;
+    padding: 10px 0px;
+}
+.icon-stars > span{
+    color: grey;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.collection-details{
+    font-size: 20px;
+    color: grey;
+}
+
+/*-- @ Popular Product Collection Style Done @ --*/
+
+/*-- @ Tiny See-More Options @ --*/
+.see-more{
+    text-align: right;
+    cursor: pointer;
+    margin-right: 300px;
+    font-size: 24px;
+    color: #E02C6D;
+}
+.see-more .fa-solid{
+    margin-left: 12px;
+}
+
+
+/*-- @ Featured Products Styles Place @ --*/
+.container-one-place{
+    width: 1410px;
+    height: 370px;
+    margin-left: 260px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.future-product-container{
+    display: flex;
+    justify-content: space-between;
+}
+.future-product-container img{
+    cursor: pointer;
+    width: 530px;
+    height: 350px;
+}
+.future-titles-container{
+    /* cursor: pointer; */
+    margin-right: 00px;
+}
+.future-titles-container > h4{
+    font-size: 45px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.future-captions{
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+}
+#join-now{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+/*-- @ Featured Products Styles Done @ --*/
+
+/*-- @ Footer Start @ --*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #0A0826;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+}
+.footer-influ-title{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.copyright{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.all-right-reserved{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.social-icon{
+    align-items: center;
+    margin-top: 25px;
+    font-size: 32px;
+}
+.social-icon .fa-brands{
+    padding: 0px 5px;
+}
+/*-- @ Footer Done @ --*/
